@@ -1,0 +1,2 @@
+_G.wl_key= getgenv().Kirbsware.AimViewer.Premium.Key
+loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4898/19136/KirbswarePremium.lua'))()

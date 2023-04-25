@@ -1,2 +1,0 @@
--- Do not leak! Its not obfuscated I beg you :C
-loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4898/19040/Kirbsware.lua'))()
