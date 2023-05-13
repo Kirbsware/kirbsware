@@ -1,4 +1,4 @@
-local library = { 
+local library = {
 	flags = { }, 
 	items = { } 
 }
@@ -18,12 +18,12 @@ local mouse = player:GetMouse()
 local camera = game.Workspace.CurrentCamera
 
 library.theme = {
-    fontsize = 15,
-    titlesize = 18,
+    fontsize = 17,
+    titlesize = 20,
     font = Enum.Font.Code,
-    background = "",
-    tilesize = 90,
-    cursor = true,
+    background = "rbxassetid://2151741365",
+    tilesize = 225,
+    cursor = false,
     cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
     backgroundcolor = Color3.fromRGB(20, 20, 20),
     tabstextcolor = Color3.fromRGB(240, 240, 240),
@@ -217,7 +217,7 @@ function library:CreateWindow(name, size, hidebutton)
     local window = { }
 
     window.name = name or ""
-    window.size = UDim2.fromOffset(size.X, size.Y) or UDim2.fromOffset(492, 598)
+    window.size = UDim2.fromOffset(size.X, size.Y) or UDim2.fromOffset(550, 600)
     window.hidebutton = hidebutton or Enum.KeyCode.RightShift
     window.theme = library.theme
 
